@@ -1,0 +1,250 @@
+﻿<html lang='zh-CN'><head><title>复制回链 2024-04-04 18:49:40</title>
+<style>
+        body {
+            font-size: 14px;
+            padding: 10px;
+            color: #666;
+        }
+
+        .curr-time {
+            color: #A0A0A0;
+            display: inline-block;
+            margin-right: 5px;
+            font-size: 0.75em;
+            font-weight: normal;
+        }
+
+        .message-info {
+            color: #999999;
+        }
+
+        .message-warning {
+            color: chocolate;
+        }
+
+        .message-error {
+            color: red;
+        }
+
+        .message {
+            margin: 2px;			
+			white-space: pre;
+            font-size:0.85em;
+        }
+
+        .step-group {
+            /*margin: 5px 0 5px 5px;
+            padding: 3px 0px 3px 10px;
+            border-left: 1px dashed #e0e0e0;*/
+        }
+        .group-btns{
+            margin: 0 0 0 5px;
+        }
+
+        .step {
+            margin: 5px 0px 5px 5px;
+            padding: 2px 0px 2px 5px;
+            border-left: 1px solid #e0e0e0;
+			width: fit-content;
+        }
+
+        .step.disabled{
+            opacity: 0.5;
+        }   
+
+        .step:hover {
+            border-left-color: rgb(255, 186, 62);
+        }
+
+        .step-content {
+            padding-left: 10px;
+        }
+
+        .step-header {
+            font-weight: bold;
+            color: #666;
+            cursor: pointer;
+            padding: 3px;
+			white-space: pre;
+        }
+
+        .step.collapsed .step-header {
+            background-color: #E0E0E0;
+        }
+        .step.collapsed .step-content{
+            display: none;
+        }
+
+        .step-header:hover{
+            background:#F8F8F8;
+        }
+
+        .step-note {
+            font-weight: normal;
+            display: inline-block;
+            font-size: 0.8em;
+            margin-left: 5px;
+			vertical-align: top;
+        }
+
+        .input-name,
+        .output-name {
+            display: inline-block;
+            padding: 0 5px;
+        }
+
+        .step-input,
+        .step-output {
+            padding: 3px 5px;
+            font-size: 0.85em;
+            max-height: 3em;
+            white-space: no-wrap;;
+			overflow:hidden;
+        }
+
+        .step-input:hover, .step-output:hover{
+                max-height: 300px;
+                overflow:auto;
+        }
+
+        
+
+        .input-value,
+        .output-value {
+            color: #B0B0B0;
+            font-size: 0.9em;
+			white-space: pre;
+        }
+
+        .value{
+            
+            overflow:auto;
+        }
+
+        .small{
+            font-size: 0.85em;
+        }
+        .step-id{
+            color:#e3a664;
+            font-weight:normal;
+            display:inline-block;
+            margin-right:4px;
+        }
+        .step-id:hover{
+            font-weight:bold;
+        }
+        .origin-input{
+            cursor:pointer;
+            opacity: 0.5;
+        }
+        .min-button{
+            background: white;
+            min-width: 30px;
+            border:1px solid #B0B0B0;
+            cursor:pointer;
+        }
+        .min-button:hover{
+            background-color:#F0F0F0;
+        }
+        .invisible-chars{
+            color:#be3615;
+            opacity:0.5;
+        }
+    </style>
+<link rel="stylesheet" href="https://getquicker.net/debughelper/debughelper.css?tick=638478533807284207"></head><body><!--本功能部分代码由@Cesaryuan贡献，感谢！-->
+<div style='margin-bottom:10px;margin-left: 5px;'>
+        <button id='collapseAll'>折叠全部</button>
+        <button id='expandAll'>展开全部</button>
+</div>
+<div class='message message-info'  title=''>Win-10.0.22631.0  Quicker-1.42.24.0 动作ID:5a19ae7e-2767-4c2b-bf05-1757031d35c5  来源动作: v0</div><div class='message message-info'>Log文件路径：C:\Users\19770\AppData\Local\Temp\quicker_复制回链_064940-728_log.html <a href='quicker:selectinexplorer:C%3a%5cUsers%5c19770%5cAppData%5cLocal%5cTemp%5cquicker_%e5%a4%8d%e5%88%b6%e5%9b%9e%e9%93%be_064940-728_log.html' title='在资源管理器中找到文件'>定位文件</a>&nbsp;<a href='quicker:copyfile:C%3a%5cUsers%5c19770%5cAppData%5cLocal%5cTemp%5cquicker_%e5%a4%8d%e5%88%b6%e5%9b%9e%e9%93%be_064940-728_log.html' title='将文件复制到剪贴板'>复制文件</a>&nbsp;<a href='quicker:uploaddebugfile:C%3a%5cUsers%5c19770%5cAppData%5cLocal%5cTemp%5cquicker_%e5%a4%8d%e5%88%b6%e5%9b%9e%e9%93%be_064940-728_log.html' title='上传到网络，并将网址复制到剪贴板。用于将调试文件快速分享给其他人。上传的文件将可以被任何人访问，请避免上传可能包含隐私信息的文件。'>上传并复制网址</a></div><div class='message message-info'  title=''>开始执行动作：复制回链  2024-04-04 18:49:40</div><div class='step'><div class='step-header'><span class='curr-time' title='184940,729'>0</span><span class='step-title' title=''>动作初始化</span></div><div class='step-content'></div></div><div class='step-group'><div class='group-btns'><button class='collapse-group min-button' title='折叠子节点'>-</button> <button class='expand-group min-button' title='展开子节点' >+</button></div><div class='step sys_writeClipboard' title='0 写入剪贴板  清空剪贴板 =&gt; 剪贴板'><div class='step-header'><span class='curr-time' title='184940,729'>0</span><span class='step-id' title=''>0</span><span class='step-title' title=''>写入剪贴板</span><span class='step-note' title=''>清空剪贴板 =&gt; 剪贴板</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后停止</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>类型</span><span class='value input-value origin-input' title='clear'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>clear</span></div><div class='message message-info'  title=''>清空剪贴板。</div><div class='step-input' >[in]<span class='input-name' title='参数名'>成功后提示</span><span class='value input-value origin-input' title=''>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'></span></div><div class='message message-info'  title=''>耗时：44ms</div></div></div><div class='step sys_getWindowTitle' title='1 获取窗口信息/查找窗口  获取当前窗口的标题'><div class='step-header'><span class='curr-time' title='184940,773'>43</span><span class='step-id' title=''>1</span><span class='step-title' title=''>获取窗口信息/查找窗口</span><span class='step-note' title=''>获取当前窗口的标题</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后停止</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>目标窗口</span><span class='value input-value origin-input' title='foreground'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>foreground</span></div><div class='step-output'>[out]<span class='output-name' title=''>窗口标题=&gt;CurrentWindowName</span><span class='value output-value' title=''>演示文稿标题.pptx - PowerPoint</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>窗口位置包含不可见边框（阴影区域）</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='message message-info'  title=''>耗时：0ms</div></div></div><div class='step sys_simpleIf' title='2 如果  当前窗口是BookxNote'><div class='step-header'><span class='curr-time' title='184940,773'>43</span><span class='step-id' title=''>2</span><span class='step-title' title=''>如果</span><span class='step-note' title=''>当前窗口是BookxNote</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>如果</span><span class='value input-value origin-input' title='$= {CurrentWindowName}.Contains(&quot;BookxNote&quot;)'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='message message-info'  title=''>不符合条件，跳过。</div></div></div><div class='step sys_simpleIf' title='3 如果  当前窗口是Zotero'><div class='step-header'><span class='curr-time' title='184940,775'>45</span><span class='step-id' title=''>3</span><span class='step-title' title=''>如果</span><span class='step-note' title=''>当前窗口是Zotero</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>如果</span><span class='value input-value origin-input' title='$= {CurrentWindowName}.Contains(&quot;Zotero&quot;)'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='message message-info'  title=''>不符合条件，跳过。</div></div></div><div class='step sys_simpleIf' title='4 如果  当前窗口是Eagle'><div class='step-header'><span class='curr-time' title='184940,775'>46</span><span class='step-id' title=''>4</span><span class='step-title' title=''>如果</span><span class='step-note' title=''>当前窗口是Eagle</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>如果</span><span class='value input-value origin-input' title='$= {CurrentWindowName}.Contains(&quot;Eagle&quot;)'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='message message-info'  title=''>不符合条件，跳过。</div></div></div><div class='step sys_simpleIf' title='5 如果  当前窗口是PotPlayer'><div class='step-header'><span class='curr-time' title='184940,776'>46</span><span class='step-id' title=''>5</span><span class='step-title' title=''>如果</span><span class='step-note' title=''>当前窗口是PotPlayer</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>如果</span><span class='value input-value origin-input' title='$= {CurrentWindowName}.Contains(&quot;PotPlayer&quot;)'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='message message-info'  title=''>不符合条件，跳过。</div></div></div><div class='step sys_simpleIf' title='6 如果  当前窗口不是BookxNote、PotPlayer、PowerPoint、Eagle、Zotero，就是Xmind'><div class='step-header'><span class='curr-time' title='184940,776'>47</span><span class='step-id' title=''>6</span><span class='step-title' title=''>如果</span><span class='step-note' title=''>当前窗口不是BookxNote、PotPlayer、PowerPoint、Eagle、Zotero，就是Xmind</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>如果</span><span class='value input-value origin-input' title='$= !{CurrentWindowName}.Contains(&quot;BookxNote&quot;) &amp;&amp; !{CurrentWindowName}.Contains(&quot;PotPlayer&quot;) &amp;&amp; !{CurrentWindowName}.Contains(&quot;PowerPoint&quot;) &amp;&amp; !{CurrentWindowName}.Contains(&quot;Eagle&quot;) &amp;&amp; !{CurrentWindowName}.Contains(&quot;Zotero&quot;)'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='message message-info'  title=''>不符合条件，跳过。</div></div></div><div class='step sys_simpleIf' title='7 如果  当前窗口是PowerPoint'><div class='step-header'><span class='curr-time' title='184940,778'>48</span><span class='step-id' title=''>7</span><span class='step-title' title=''>如果</span><span class='step-note' title=''>当前窗口是PowerPoint</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>如果</span><span class='value input-value origin-input' title='$= {CurrentWindowName}.Contains(&quot;PowerPoint&quot;)'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='message message-info'  title=''>执行 True 分支, 共 2 步骤</div><div class='step-group'><div class='group-btns'><button class='collapse-group min-button' title='折叠子节点'>-</button> <button class='expand-group min-button' title='展开子节点' >+</button></div><div class='step sys_group' title='7.0 步骤组  获取页码'><div class='step-header'><span class='curr-time' title='184940,778'>49</span><span class='step-id' title=''>7.0</span><span class='step-title' title=''>步骤组</span><span class='step-note' title=''>获取页码</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>忽略错误</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>使用多线程</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>调试运行时不输出调试内容</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-group'><div class='group-btns'><button class='collapse-group min-button' title='折叠子节点'>-</button> <button class='expand-group min-button' title='展开子节点' >+</button></div><div class='step sys_officehelper' title='7.0.0 Office软件辅助  执行VBA脚本(PowerPoint)'><div class='step-header'><span class='curr-time' title='184940,778'>49</span><span class='step-id' title=''>7.0.0</span><span class='step-title' title=''>Office软件辅助</span><span class='step-note' title=''>执行VBA脚本(PowerPoint)</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后停止动作</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>操作类型</span><span class='value input-value origin-input' title='execVBA'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>execVBA</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>应用程序</span><span class='value input-value origin-input' title='powerpoint'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>powerpoint</span></div><div class='message message-info'  title=''>ProgId=Powerpoint.Application</div><div class='step-input' >[in]<span class='input-name' title='参数名'>宏名称或VBA代码</span><span class='value input-value origin-input' title='Sub ExportSelectedShapeAsImageToFolder()
+
+  &#39; 下面是自定义的页码变量
+ 
+  Dim slideNumber As Integer
+  
+  Dim objShell As Object
+
+  &#39; 获取当前幻灯片的索引（即页码）
+
+  slideNumber = ActiveWindow.View.Slide.SlideIndex
+  
+  Set objShell = CreateObject(&quot;WScript.shell&quot;)
+  
+  objShell.Run &quot;cmd /C echo|set/p=&quot; &amp; slideNumber &amp; &quot;| CLIP&quot;, 2
+
+End Sub
+'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>Sub ExportSelectedShapeAsImageToFolder()<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  &#39; 下面是自定义的页码变量<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+ <span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  Dim slideNumber As Integer<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  <span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  Dim objShell As Object<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  &#39; 获取当前幻灯片的索引（即页码）<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  slideNumber = ActiveWindow.View.Slide.SlideIndex<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  <span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  Set objShell = CreateObject(&quot;WScript.shell&quot;)<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  <span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+  objShell.Run &quot;cmd /C echo|set/p=&quot; &amp; slideNumber &amp; &quot;| CLIP&quot;, 2<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+End Sub<span class='invisible-chars'>\r</span><span class='invisible-chars'>\n</span>
+</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>等待执行结束</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>最长等待时间(ms)</span><span class='value input-value origin-input' title='10000'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>10000</span></div><div class='message message-info'  title=''>耗时：381ms</div></div></div><div class='step sys_waitClipboardChange' title='7.0.1 等待剪贴板内容改变  最长 10 秒'><div class='step-header'><span class='curr-time' title='184941,159'>430</span><span class='step-id' title=''>7.0.1</span><span class='step-title' title=''>等待剪贴板内容改变</span><span class='step-note' title=''>最长 10 秒</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后中止动作</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>最长等待秒数</span><span class='value input-value origin-input' title='10'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>10</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>包含临近的改变</span><span class='value input-value origin-input' title='10'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>10</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>等待窗口关闭时取消</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='message message-info'  title=''>358ms后剪贴板内容改变了。</div><div class='message message-info'  title=''>耗时：359ms</div></div></div><div class='step sys_getClipboardText' title='7.0.2 获取剪贴板文本  =&gt; {PPTPageNum}'><div class='step-header'><span class='curr-time' title='184941,518'>789</span><span class='step-id' title=''>7.0.2</span><span class='step-title' title=''>获取剪贴板文本</span><span class='step-note' title=''>=&gt; {PPTPageNum}</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后中止动作</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>文本数据格式</span><span class='value input-value origin-input' title='UnicodeText'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>UnicodeText</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>重试时间</span><span class='value input-value origin-input' title='400'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>400</span></div><div class='step-output'>[out]<span class='output-name' title=''>完整结果内容=&gt;PPTPageNum</span><span class='value output-value' title=''>1</span></div><div class='message message-info'  title=''>耗时：36ms</div></div></div></div></div></div><div class='step sys_group' title='7.1 步骤组  获取PPT文件的路径'><div class='step-header'><span class='curr-time' title='184941,554'>824</span><span class='step-id' title=''>7.1</span><span class='step-title' title=''>步骤组</span><span class='step-note' title=''>获取PPT文件的路径</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>忽略错误</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>使用多线程</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>调试运行时不输出调试内容</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-group'><div class='group-btns'><button class='collapse-group min-button' title='折叠子节点'>-</button> <button class='expand-group min-button' title='展开子节点' >+</button></div><div class='step sys_group' title='7.1.0 步骤组  获取ppt文件的名称，方便搜索ppt文件位置'><div class='step-header'><span class='curr-time' title='184941,554'>824</span><span class='step-id' title=''>7.1.0</span><span class='step-title' title=''>步骤组</span><span class='step-note' title=''>获取ppt文件的名称，方便搜索ppt文件位置</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>忽略错误</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>使用多线程</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>调试运行时不输出调试内容</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-group'><div class='group-btns'><button class='collapse-group min-button' title='折叠子节点'>-</button> <button class='expand-group min-button' title='展开子节点' >+</button></div><div class='step sys_getWindowTitle' title='7.1.0.0 获取窗口信息/查找窗口  前台窗口'><div class='step-header'><span class='curr-time' title='184941,554'>824</span><span class='step-id' title=''>7.1.0.0</span><span class='step-title' title=''>获取窗口信息/查找窗口</span><span class='step-note' title=''>前台窗口</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后停止</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>目标窗口</span><span class='value input-value origin-input' title='foreground'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>foreground</span></div><div class='step-output'>[out]<span class='output-name' title=''>窗口标题=&gt;CurrentWindowName</span><span class='value output-value' title=''>演示文稿标题.pptx - PowerPoint</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>窗口位置包含不可见边框（阴影区域）</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='message message-info'  title=''>耗时：0ms</div></div></div><div class='step sys_regexExtract' title='7.1.0.1 正则提取  各匹配项的值'><div class='step-header'><span class='curr-time' title='184941,554'>824</span><span class='step-id' title=''>7.1.0.1</span><span class='step-title' title=''>正则提取</span><span class='step-note' title=''>各匹配项的值</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后中止动作</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>提取方式</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>0</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>输入</span><span class='value input-value origin-input' title='$${CurrentWindowName}'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>演示文稿标题.pptx - PowerPoint</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>正则表达式</span><span class='value input-value origin-input' title='^.*?\.'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>^.*?\.</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>忽略大小写</span><span class='value input-value origin-input' title='false'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>单行模式</span><span class='value input-value origin-input' title='false'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>多行模式</span><span class='value input-value origin-input' title='false'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>从右向左</span><span class='value input-value origin-input' title='false'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-output'>[out]<span class='output-name' title=''>所有匹配列表=&gt;CurrentWindowName</span><span class='value output-value' title=''>演示文稿标题.</span></div><div class='message message-info'  title=''>耗时：0ms</div></div></div><div class='step sys_stringProcess' title='7.1.0.2 文本处理  把结尾的小数点移除'><div class='step-header'><span class='curr-time' title='184941,554'>825</span><span class='step-id' title=''>7.1.0.2</span><span class='step-title' title=''>文本处理</span><span class='step-note' title=''>把结尾的小数点移除</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后停止</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>待处理内容</span><span class='value input-value origin-input' title='$${CurrentWindowName}'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>演示文稿标题.</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>处理</span><span class='value input-value origin-input' title='remove'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>remove</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>开始位置</span><span class='value input-value origin-input' title='-1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>-1</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>长度</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>1</span></div><div class='step-output'>[out]<span class='output-name' title=''>结果=&gt;CurrentWindowName</span><span class='value output-value' title=''>演示文稿标题</span></div><div class='message message-info'  title=''>耗时：0ms</div></div></div></div></div></div><div class='step sys_everythingsearch' title='7.1.1 使用Everything搜索文件  使用Everything搜索文件，并排除杂项'><div class='step-header'><span class='curr-time' title='184941,554'>825</span><span class='step-id' title=''>7.1.1</span><span class='step-title' title=''>使用Everything搜索文件</span><span class='step-note' title=''>使用Everything搜索文件，并排除杂项</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后停止</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>搜索内容</span><span class='value input-value origin-input' title='$${CurrentWindowName}.pptx !.url !.jpg !.png !.svg !.LNK'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>演示文稿标题.pptx !.url !.jpg !.png !.svg !.LNK</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>限定目录</span><span class='value input-value origin-input' title=''>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'></span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>扩展名</span><span class='value input-value origin-input' title=''>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'></span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>匹配整个单词</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>匹配大小写</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>使用正则匹配</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>最大结果数量</span><span class='value input-value origin-input' title='100'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>100</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>排序方式</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>1</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>匹配路径</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>匹配完整文件名</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>False</span></div><div class='step-output'>[out]<span class='output-name' title=''>结果个数=&gt;SearchResultNum</span><span class='value output-value' title=''>1</span></div><div class='step-output'>[out]<span class='output-name' title=''>路径列表=&gt;CurrentFilePath</span><span class='value output-value' title=''>C:\Users\19770\OneDrive\演示文稿标题.pptx</span></div><div class='message message-info'  title=''>耗时：99ms</div></div></div><div class='step sys_if' title='7.1.2 如果/否则  只搜到一个文件，可以直接复制'><div class='step-header'><span class='curr-time' title='184941,653'>925</span><span class='step-id' title=''>7.1.2</span><span class='step-title' title=''>如果/否则</span><span class='step-note' title=''>只搜到一个文件，可以直接复制</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>如果</span><span class='value input-value origin-input' title='$= {SearchResultNum} == 1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='message message-info'  title=''>执行 True 分支, 共 3 步骤</div><div class='step-group'><div class='group-btns'><button class='collapse-group min-button' title='折叠子节点'>-</button> <button class='expand-group min-button' title='展开子节点' >+</button></div><div class='step sys_stringProcess' title='7.1.2.0 文本处理  $${CurrentFilePath} URL编码 =&gt; {CurrentFilePath}'><div class='step-header'><span class='curr-time' title='184941,654'>925</span><span class='step-id' title=''>7.1.2.0</span><span class='step-title' title=''>文本处理</span><span class='step-note' title=''>$${CurrentFilePath} URL编码 =&gt; {CurrentFilePath}</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后停止</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>待处理内容</span><span class='value input-value origin-input' title='$${CurrentFilePath}'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>C:\Users\19770\OneDrive\演示文稿标题.pptx</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>处理</span><span class='value input-value origin-input' title='urlEncode'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>urlEncode</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>编码</span><span class='value input-value origin-input' title='utf-8'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>utf-8</span></div><div class='step-output'>[out]<span class='output-name' title=''>结果=&gt;CurrentFilePath</span><span class='value output-value' title=''>C%3A%5CUsers%5C19770%5COneDrive%5C%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E6%A0%87%E9%A2%98.pptx</span></div><div class='message message-info'  title=''>耗时：0ms</div></div></div><div class='step sys_writeClipboard' title='7.1.2.1 写入剪贴板  纯文本 =&gt; 剪贴板'><div class='step-header'><span class='curr-time' title='184941,654'>925</span><span class='step-id' title=''>7.1.2.1</span><span class='step-title' title=''>写入剪贴板</span><span class='step-note' title=''>纯文本 =&gt; 剪贴板</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>失败后停止</span><span class='value input-value origin-input' title='1'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>True</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>类型</span><span class='value input-value origin-input' title='text'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>text</span></div><div class='message message-info'  title=''>写入文本类型。</div><div class='step-input' >[in]<span class='input-name' title='参数名'>文本内容</span><span class='value input-value origin-input' title='$$ymjr://open?app=PPT&amp;file={CurrentFilePath}.pptx&amp;page={PPTPageNum}'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>ymjr://open?app=PPT&amp;file=C%3A%5CUsers%5C19770%5COneDrive%5C%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E6%A0%87%E9%A2%98.pptx.pptx&amp;page=1</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>成功后提示</span><span class='value input-value origin-input' title=''>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'></span></div><div class='message message-info'  title=''>耗时：8ms</div></div></div><div class='step sys_notify' title='7.1.2.2 提示消息  已复制PowerPoint回链'><div class='step-header'><span class='curr-time' title='184941,662'>933</span><span class='step-id' title=''>7.1.2.2</span><span class='step-title' title=''>提示消息</span><span class='step-note' title=''>已复制PowerPoint回链</span></div><div class='step-content'><div class='step-input' >[in]<span class='input-name' title='参数名'>消息内容</span><span class='value input-value origin-input' title='已复制PowerPoint回链'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>已复制PowerPoint回链</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>类型</span><span class='value input-value origin-input' title='Success'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>Success</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>最大行数</span><span class='value input-value origin-input' title='0'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>0</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>风格</span><span class='value input-value origin-input' title='Default'>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'>Default</span></div><div class='step-input' >[in]<span class='input-name' title='参数名'>点击命令</span><span class='value input-value origin-input' title=''>【值/表达式】</span><span class='value input-value' title='参数值，点击取消高度限制'></span></div><div class='message message-info'  title=''>耗时：23ms</div></div></div></div></div></div></div></div></div></div></div></div></div><div class='message message-info'  title=''>动作结束。耗时：956.8578ms</div>
+<script>
+        var coll = document.getElementsByClassName('step-header');
+            var i;
+
+            for (i = 0; i < coll.length; i++)
+            {
+                coll[i].addEventListener('click', function() {
+                    // this.classList.toggle('active');
+                    var parent = this.parentElement;
+                    if (parent.classList.contains('collapsed'))
+                    {
+                        parent.classList.remove('collapsed');
+                    }
+                    else
+                    {
+                        parent.classList.add('collapsed');
+                    }
+                });
+            }
+
+        document.getElementById('collapseAll').addEventListener('click', function(){
+            var nodes = document.getElementsByClassName('step');
+            for(i =0; i<nodes.length; i++){
+                nodes[i].classList.add('collapsed');
+            }
+        });
+
+        document.getElementById('expandAll').addEventListener('click', function(){
+            var nodes = document.getElementsByClassName('step');
+            for(i =0; i<nodes.length; i++){
+                nodes[i].classList.remove('collapsed');
+            }
+        });
+
+        // 折叠所有子程序和内部节点
+         let spNodes = document.getElementsByClassName('sys_subprogram');
+            //for(i =0; i<spNodes.length; i++){
+            //    spNodes[i].classList.add('collapsed');                
+            //}
+            document.querySelectorAll('.sys_subprogram .step').forEach(ele => {ele.classList.add('collapsed')});
+        
+
+        function collapseGroup(evt){
+            var groupEle = evt.target.parentElement.parentElement;
+            groupEle.querySelectorAll('.step').forEach(ele => {ele.classList.add('collapsed')});
+        }   
+
+        function expandGroup(evt){
+             var groupEle = evt.target.parentElement.parentElement;
+            groupEle.querySelectorAll('.step').forEach(ele => {ele.classList.remove('collapsed')});
+        }
+
+        
+
+        
+            </script>
+                <script src="https://files.getquicker.cn/jquery@3.4.1/dist/jquery.min.js"></script><script src="https://files.getquicker.cn/jquery-color@2.2.0/dist/jquery.color.min.js"></script><script src="https://getquicker.net/debughelper/debughelper.js?tick=638478533816852785"></script><script>$('.step-id').on('click',function(e){window.open('quicker:findstep:5a19ae7e-2767-4c2b-bf05-1757031d35c5;;' + $(this).text(), '_self'); e.stopPropagation();});$('.collapse-group').on('click', collapseGroup);$('.expand-group').on('click', expandGroup);</script></body></html>
