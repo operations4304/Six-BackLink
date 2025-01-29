@@ -1,6 +1,10 @@
 # Six-BackLink
 
-### 用Quicker复制6种软件的回链
+知乎文字链接：[用Quicker复制6种软件的回链](https://zhuanlan.zhihu.com/p/690742341)
+
+哔哩哔哩视频链接：无
+
+## 用Quicker复制6种软件的回链
 
 前6篇文章，我分别介绍了用Quicker实现BookxNote、Zotero、Eagle、PotPlayer、PowerPoint、Xmind的摘录动作。有一些时候，我们希望仅仅复制回链，其他东西比如文字、图片不需要，因此这篇文章介绍一下复制6种软件的回链。
 
